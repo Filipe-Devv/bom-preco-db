@@ -13,6 +13,9 @@ Entidades referentes ao banco de dados do mercadinho "Preço bom"
   
   Produto
   Nome (Fornecedor)
+  Cnpj
+  Contato
+  Cidade
 
 -Produtos-
 
@@ -32,8 +35,68 @@ Cadastro de cliente, obrigatoriamente necessitara de nome, cpf, gmail.
 
 RNO2
 
+O cadastro podera ser feito apenas uma vez pelo cliente com o nome, cpf, gmail.
 
-  
+RNO3
+
+Preço do produto não pode ser menor que 0$
+
+RNO4
+
+A quantidade do produto não pode ser menor que 0
+
+RNO5
+
+O fornecedor devera definir apenas um preço para o seu produto, Ex:. Arroz 10$ em um local do fornecedor, e em outro local no mesmo supermercado arroz 15$.
+
+RN06
+
+Todos os nomes não podem ter menos de 2 caracteres
+
+RNO7
+
+A cada mes o sistema realizar um backup de todos o sistema.
+
+
+
+
+-Regras de Dados-
+
+RD01 
+
+O sistema devera armazenar da entidade produtos: nome,preço,quantidade.
+
+RDO2
+
+O sistema devera armazenar da entidade cliente: Nome, Cnpj, Contato Cidade do fornecedor durante o cadastro.
+
+RDO3
+
+O sistema devera armazenar da entidade fornecedor: nome,produto,contato,cidade.
+
+RDO4
+
+O sistema devera dar baixa no estoque dos produtos dependendo da quantidade retirada.
+
+RDO5
+O sistema deve registrar cada venda com data, cliente e itens vendidos.
+
+
+
+-Pergunta ao dono-
+
+1.Um produto pode ter mais de um fornecedor ?
+
+
+2.A cidade,telefone do cliente e obrigatoria ?
+
+
+3.Quais pessoas farão as alteraçoes nos dasdos do sistema ?
+
+
+
+
+
 
 
 
