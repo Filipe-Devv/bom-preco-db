@@ -1,0 +1,45 @@
+Lista Entidades, dados, regras de negócio
+
+Entidades referentes ao banco de dados do mercadinho "Preço bom"
+
+-Cliente-
+
+  Nome (Cliente)
+  Telefone (Cliente)
+  Cpf (Cliente)
+  Cidade (Cliente)
+
+-Fornecedor-
+  
+  Produto
+  Nome (Fornecedor)
+
+-Produtos-
+
+  Nome (Produto)
+  Preço (Produto)
+  Peso (Produto)
+  Quantidade (Produto)
+  Validade (Produto)
+
+-Regras de Negócio-
+
+Nome
+
+RN01
+
+Cadastro de cliente, obrigatoriamente necessitara de nome, cpf, gmail.
+
+RNO2
+
+
+  
+
+
+
+
+
+  
+ 
+
+ 
