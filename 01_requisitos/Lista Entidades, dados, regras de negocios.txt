@@ -83,7 +83,7 @@ O sistema deve registrar cada venda com data, cliente e itens vendidos.
 
 
 
--Pergunta ao dono-
+-Perguntas ao dono-
 
 1.Um produto pode ter mais de um fornecedor ?
 
