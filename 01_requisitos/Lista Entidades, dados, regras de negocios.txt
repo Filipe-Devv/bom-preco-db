@@ -27,8 +27,6 @@ Entidades referentes ao banco de dados do mercadinho "Preço bom"
 
 -Regras de Negócio-
 
-Nome
-
 RN01
 
 Cadastro de cliente, obrigatoriamente necessitara de nome, cpf, email.
@@ -56,9 +54,6 @@ Todos os nomes não podem ter menos de 2 caracteres
 RNO7
 
 A cada mes o sistema realizar um backup de todos o sistema.
-
-
-
 
 -Regras de Dados-
 
