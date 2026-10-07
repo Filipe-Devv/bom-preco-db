@@ -31,11 +31,11 @@ Nome
 
 RN01
 
-Cadastro de cliente, obrigatoriamente necessitara de nome, cpf, gmail.
+Cadastro de cliente, obrigatoriamente necessitara de nome, cpf, email.
 
 RNO2
 
-O cadastro podera ser feito apenas uma vez pelo cliente com o nome, cpf, gmail.
+O cadastro podera ser feito apenas uma vez pelo cliente com o nome, cpf, email.
 
 RNO3
 
