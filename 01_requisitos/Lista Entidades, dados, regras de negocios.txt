@@ -24,8 +24,20 @@ Entidades referentes ao banco de dados do mercadinho "Preço bom"
   Peso (Produto)
   Quantidade (Produto)
   Validade (Produto)
+  ID (Produto)
+  Categoria (Produto)
 
--Regras de Negócio-
+-Item do pedido-
+  ID produto
+  produto
+
+-Pedido-
+ item do pedido
+
+
+---Regras de Negócio--- (10)
+
+
 
 RN01
 
@@ -33,7 +45,7 @@ Cadastro de cliente, obrigatoriamente necessitara de nome, cpf, email.
 
 RNO2
 
-O cadastro podera ser feito apenas uma vez pelo cliente com o nome, cpf, email.
+O cadastro podera ser feito apenas uma vez pelo (chave unica) cliente com o nome, cpf, email.
 
 RNO3
 
@@ -55,19 +67,33 @@ RNO7
 
 A cada mes o sistema realizar um backup de todos o sistema.
 
--Regras de Dados-
+RNO8
+
+O sistema avisa quando o estoque estiver abaixo de 30 items.
+
+RNO9 
+
+Cada cliente tera um pedido com obrigatoriamente mais de 0 produtos dentro dele.
+
+RN10
+
+O sistema verifica a quantidade de produtos no estoque.
+
+
+
+----Regras de Dados--- (10)
 
 RD01 
 
-O sistema devera armazenar da entidade produtos: nome,preço,quantidade.
+O sistema devera armazenar da entidade produtos: nome,preço,quantidade,.
 
 RDO2
 
-O sistema devera armazenar da entidade cliente: Nome, Cnpj, Contato Cidade do fornecedor durante o cadastro.
+O sistema devera armazenar da entidade cliente: Nome, Cpf, Contato, Cidade do fornecedor durante o cadastro.
 
 RDO3
 
-O sistema devera armazenar da entidade fornecedor: nome,produto,contato,cidade.
+O sistema devera armazenar da entidade fornecedor: nome,produto,contato,cidade,Cpnj.
 
 RDO4
 
@@ -76,17 +102,43 @@ O sistema devera dar baixa no estoque dos produtos dependendo da quantidade reti
 RDO5
 O sistema deve registrar cada venda com data, cliente e itens vendidos.
 
+RD06 
+
+O sistema deve armazenar a quantidade que possui no estoque.
+
+RD07
+
+O sistema armazena a entidade pedido:item do pedido, e assim salvando o pedido
+
+RD08
+
+O preço final da entidade item do produto deve ser somado pela quantidade de produtos inseridos.
+
+RD09
+
+O sistema armazena a data da entega dos produtos do fornecedor.
+
+RD10
+
+O sistema armazena a categoria do produto Ex:. Arroz ala B bloca D.
 
 
--Perguntas ao dono-
+---Perguntas ao dono--- (5)
 
 1.Um produto pode ter mais de um fornecedor ?
+R:
 
-
-2.A cidade,telefone do cliente e obrigatoria ?
-
+2.Para o cadastro a cidade,telefone do cliente e obrigatoria ?
+R:
 
 3.Quais pessoas farão as alteraçoes nos dasdos do sistema ?
+R:
+
+4.O sistema deve armazenar a data dos pedidos?
+R:
+
+5.Um cliente pode ter mais de um carrinho ao mesmo tempo?
+R:
 
 
 
