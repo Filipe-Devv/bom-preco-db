@@ -3,20 +3,19 @@ DESAFIO 1
 
 Lista entidades, dados ,regras Streaming
 
-
- -Usuário-
+-Usuário-
    Nome
    E-mail
    Senha
    ID
 
- -Moderador-
+-Moderador-
    Nome
    E-mail
    Senha
    Acesso
 
- -Vídeo-
+-Vídeo-
 
   Nome
   Duração 
@@ -26,10 +25,8 @@ Lista entidades, dados ,regras Streaming
   Curtidas 
   Comentários
  
+-Criador de conteúdo-
 
-
- -Criador de conteúdo-
-   
    Vídeo
    Canal
    Remuneração
