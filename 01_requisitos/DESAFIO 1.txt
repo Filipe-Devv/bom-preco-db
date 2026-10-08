@@ -1,0 +1,117 @@
+DESAFIO 1
+
+
+Lista entidades, dados ,regras Streaming
+
+
+ -Usuário-
+   Nome
+   E-mail
+   Senha
+   ID
+
+ -Moderador-
+   Nome
+   E-mail
+   Senha
+   Acesso
+
+ -Vídeo-
+
+  Nome
+  Duração 
+  Faixa Etária
+  Categoria
+  Visualizações
+  Curtidas 
+  Comentários
+ 
+
+
+ -Criador de conteúdo-
+   
+   Vídeo
+   Canal
+   Remuneração
+
+
+
+--REGRAS DE NEGOCIO--
+
+RNO1
+
+Todo usuário pode se tornar um criador de conteúdo ao criar um canal. 
+
+RNO2 
+
+Cadastro de usuário, criador de conteúdo, moderador obrigatoriamente necessitara de nome, senha, e-mail.
+
+RNO3
+
+O cadastro poderá ser feito apenas uma vez pelo (chave única) cliente com o nome, cpf, e-mail.
+
+RNO4
+
+O moderador deve verificar se o vídeo está dentro das normas da plataforma.
+
+RNO5
+
+O Criador de conteúdo pode postar vídeos.
+
+RNO6
+
+O criador de conteúdo pode agendar a data de upload do vídeo.
+
+RNO7
+
+Todas as entidades podem interagir com o vídeo sendo elas assistindo, curtindo, comentando, doação...
+
+RNO8
+
+A monetização funciona para o criador de conteúdo de forma que por cada 1000 visualizações paga 10US sem distinção de categoria.
+
+--REGRA DE DADOS--
+
+RD01
+
+O sistema deve armazenar da entidade usuário: nome, e-mail e senha.
+
+RD02
+
+O sistema deve armazenar da entidade moderador: nome, e-mail, senha e acesso.
+
+RD03
+
+O sistema deve armazenar da entidade criador de conteúdo vídeos e canal.
+
+RD04
+
+O sistema armazena categoria de determinado vídeo, Ex:. Jogos, Podcast, Musculação...
+
+RD05
+
+O sistema deve armazenar da entidade Vídeo: Nome, Duração, Faixa Etária, Categoria, Visualizações, Curtidas e Comentários.
+
+RD06
+
+O sistema deve armazenar a quantidade vídeos que possui no canal.
+
+
+
+--Um exemplo de situação de risco--
+
+Um exemplo de situação de risco é, ter um vídeo com algum conteúdo explicito nudez, violência... Uma forma de prevenir isso é, com o moderador que tem acesso aos vídeos vendo eles o analisando para remover o vídeo da plataforma.
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+ 
