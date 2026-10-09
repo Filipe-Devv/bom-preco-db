@@ -1,5 +1,9 @@
 DESAFIO 1
 
+ERRO CONSERTAR PORFAVOR 08/10 21:11
+
+ENTIDADES ERRO
+
 
 Lista entidades, dados ,regras Streaming
 
@@ -9,7 +13,7 @@ Lista entidades, dados ,regras Streaming
    Senha
    ID
 
--Moderador-
+moderador
    Nome
    E-mail
    Senha
