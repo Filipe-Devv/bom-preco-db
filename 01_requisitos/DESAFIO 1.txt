@@ -12,12 +12,9 @@ Lista entidades, dados ,regras Streaming
    E-mail
    Senha
    ID
-
-moderador
-   Nome
-   E-mail
-   Senha
+usuario moderador
    Acesso
+Usuario Criador de conteúdo
 
 -Vídeo-
 
