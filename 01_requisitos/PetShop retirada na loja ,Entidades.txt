@@ -1,0 +1,122 @@
+PetShop retirada na loja ,Entidades
+
+Produto
+  
+ Nome
+ Categoria
+ Preço
+ 
+ 
+
+Fornecedor
+ Contato
+ Produto
+ CNPJ
+ Cidade
+
+
+
+Estoque
+
+ Produtos
+ Quantidade
+ Estoque mínimo
+ 
+ 
+ 
+
+Cliente(Tutor)
+ Nome
+ Senha
+ Cpf
+ 
+
+Animal
+ Nome
+ Espécie
+ Idade
+ Tutor
+
+
+--REGRAS DE NEGOCIO-- (10)
+
+RN01
+
+Cada cliente deve possuir um identificador único.
+
+RN02
+
+Haverá a possibilidade de compra se o produto estiver em estoque.
+
+RN03
+
+Por tutor o máximo de 5 animais (cão, gato) para o banho e tosa.
+
+RN04
+
+O cliente terá direito, ao banho e tosa do animal perante o pagamento antecipado.
+
+RN05
+
+A cada 30 dias a sistema realiza um backup
+
+RN06
+
+Cada cliente deve ter no mínimo um produto para passar pagar o produto.
+
+RN07
+
+O preço do produto não pode ser menor que 0$
+
+RN08
+
+O estoque deve ter mais de 0 produtos.
+
+RN09
+
+Cada cliente deve citar o nome, espécie e idade de seu animal
+
+RN10
+
+Cada animal deve ter um tutor.
+
+
+
+--REGRAS DE DADOS-- (6)
+
+
+
+RD01
+
+O sistema deve armazenar, para cada produto, nome, categoria e preço.
+
+RD02
+
+ O sistema deve armazenar o fornecedor, CNPJ, produto, cidade e informações de contato do fornecedor.
+
+RD03
+A cada 30 dias a sistema realiza um backup
+
+RD04
+
+O sistema deve armazenar as informações do animal nome, espécie , idade e tutor
+
+RD05
+
+O sistema deve armazenar as informações do dos produtos nome, preço e categoria
+
+RD06
+
+O sistema deve armazenar as informações do estoque quantidade, produtos e estoque mínimo.
+
+
+PERGUNTAS PARA O DONO
+
+Os fornecedor pode ter 2 nomes, se não qual validar?
+
+
+
+
+
+
+
