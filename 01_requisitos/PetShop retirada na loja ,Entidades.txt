@@ -115,6 +115,23 @@ PERGUNTAS PARA O DONO
 Os fornecedor pode ter 2 nomes, se não qual validar?
 
 
+Respostas Reflexão
+
+Por que nomes diferentes para o mesmo tutor ou produto podem gerar duplicidade de cadastros e relatórios
+incorretos?
+R:Podem causar dualidade no sistema achar uma coisa sendo outra.
+
+Quais informações sobre os animais são realmente necessárias para o atendimento e quem deveria ter acesso a
+elas?
+R:No meu entendimento apenas os funcionarios dentro do local da empresa 
+
+Que dados nunca deveriam ser registrados em uma planilha de atendimento, como a senha de e-mail?
+R:Alem da senha e o e-mail o cpf e o animal do determinado cliente
+
+O que o pet shop deveria fazer para não perder o histórico caso uma planilha seja apagada
+R:Fazer um backup
+
+
 
 
 
