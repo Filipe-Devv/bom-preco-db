@@ -1,0 +1,18 @@
+Biblioteca escolar, lista de entidades (Em andamento)
+
+Livros
+ Nome
+ Categoria
+ Faixa etária
+ Paginas 
+ Autor
+ 
+ 
+ 
+Acervo
+ Livros
+ 
+
+Aluno
+
+Empréstimos
