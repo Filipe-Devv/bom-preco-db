@@ -1,7 +1,6 @@
 Campeonato de games, Lista de entidades.
 
 Equipes
-
  Nome
  Integrantes
  Jogos
