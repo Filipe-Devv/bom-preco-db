@@ -116,6 +116,29 @@ REFLEXÃO
 
 Código e sistemas não são feitos para máquinas entenderem; são feitos para organizar o pensamento humano de forma tão clara que até uma máquina consiga executar.
 
+ATIVIDADE REFLEXÃO:
+
+1.Por que um mesmo identificador de partida não deveria aparecer associado a placares diferentes sem explicação?
+
+R:Porque ele está referente a apenas a uma tabela, e não pode ficar em 2 planilhas, 2 lugares do sistema
+
+2.Quais regras definem a pontuação e os critérios de desempate? O que precisa ser perguntado ao organizador?
+
+R: Vitoria=3 Pontos, Derrota=0, oque acontece referente o empate.
+
+3.Como validar datas, placares e participantes antes de registrar uma partida?
+
+R:Avaliando os dados breviamente, mas com o sistema esse precesso e automatizado.
+
+4.Quais informações devem ser públicas na classificação e quais dados de contato ou credenciais devem ser
+protegidos?
+
+R:O nome da equipe e seus respectivos integrantes, e os dados protegidos sendo: senha e numero de contato.
+
+
+
+
+
 
 
 
