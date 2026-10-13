@@ -1,2 +1,106 @@
-Campeonato de games, Lista de entidades (Em andamento)
+Campeonato de games, Lista de entidades.
+
+Equipes
+
+ Nome
+ Integrantes
+ Jogos
+ Qual jogo
+
+Jogadores
+  Nome
+  Senha
+  ID
+  Data de inscrição
+  Jogo
+
+ Partida
+  Codigo de acesso
+  Vencedor
+  Data
+  Equipes
+  Placar
+
+
+--Regras de negocios-- (10)
+
+RN01
+
+O sistema não deve possuir dias negativos
+
+RN02
+
+O sistema manda um aviso para os integrantes da equipe quando há um jogo
+
+RN03
+
+Cada jogador deve possuir nome, senha, ID, jogos que ja participou e o jogo que ele participa
+
+RNO4
+
+Cada partida deve ter data,codigo de acesso, vencedor, equipes participantes e placar
+
+RNO5
+
+Cada equipe deve ter nome, integrantes, jogos que ja foram jogados e qual jogo pertence.
+
+RNO6
+
+A cada 30 dias a sistema realiza um backup
+
+RN07
+
+Cada cliente deve possuir um identificador único.
+
+RN08
+
+O nome de cada equipe deve estar nas normas de uso de nomes.
+
+RN09
+
+Não deve existir 2 equipes com o mesmo nome.
+
+RN10
+
+Não deve existir nomes iguais.
+
+--REGRAS DE DADOS-- (6)
+
+RD01
+
+O sistema armazena da entidade jogador: nome, senha, ID, jogos que ja participou e o jogo que ele participa
+
+RD02
+
+O sistema deve armazenar da entidade partida: data,codigo de acesso, vencedor, equipes participantes e placar
+
+RD03
+
+O sistema armazena da entidade equipe: nome, integrantes, jogos que ja foram jogados e qual jogo pertence.
+
+RD04
+
+O sistema armazena o ID da partida e jogadores.
+
+RD05
+
+O sistema deve armazenar para cada conta, identificador único, nome, senha, ID, Jogo, data de inscrição
+
+RD06
+
+O sistema deve armazenar os integrantes da entidade equipes.
+
+--PERGUNTAS AO DONO--
+
+1.E possivel ter 2 equipes com o mesmo nome?
+
+2.Ter restrição de nomes de usario é nome de equipe?
+
+
+
+
+
+
+
+
 
