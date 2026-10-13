@@ -109,6 +109,22 @@ RD06
 
 O sistema deve armazenar as informações do estoque quantidade, produtos e estoque mínimo.
 
+RD07
+
+O sistema organiza o sistema de forma alfabetica.
+
+RD08
+
+O sistema salva os usuarios que ja passaram utilizaram os serviços do petshop.
+
+RD09
+
+O sistema salva os pagamentos.
+
+RD10
+
+O sistema faz a contagem de todos os clientes
+
 
 PERGUNTAS PARA O DONO
 
