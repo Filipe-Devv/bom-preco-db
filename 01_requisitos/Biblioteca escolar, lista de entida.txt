@@ -1,18 +1,96 @@
 Biblioteca escolar, lista de entidades (Em andamento)
 
-Livros
- Nome
- Categoria
- Faixa etária
- Paginas 
- Autor
- 
- 
- 
-Acervo
- Livros
- 
+aluno
+(nome )
+(situação)
 
-Aluno
+Turma
+(nome da turma)
 
-Empréstimos
+livro
+(nome)
+
+autor
+(nome)
+
+exemplares disponivel
+(nome do exemplar)
+(Total de exemplares)
+
+matricula
+(id do aluno)
+
+telefone
+(telefone do responvel)
+
+oberservaçoes
+(oberservaçoes individual do aluno)
+
+REGRA DE DADOS 
+
+RD01º
+
+O sistema deve armazenar o nome dentro da entidade aluno
+
+RD02º
+
+O sistema deve armazenar a situação dentro da entidade aluno
+
+RD03º
+
+O sistema deve armazenar o nome da turma dentro da entidade turma
+
+RD04º
+
+O sistema deve armazenar o nome do livro dentro da entidade livro
+
+RD05º
+
+O sistema deve armazenar o nome do autor dentro da entidade autor
+
+RD06º
+
+O sistema deve armazenar o nome do exemplar dentro da entidade exemplares disponivel
+
+RD07º
+
+O sistema deve armazenar o Total de exemplares dentro da entidade exemplares disponivel
+
+RD08º
+
+O sistema deve armazenar o id do aluno dentro da entidade matricula
+
+RD09º
+
+O sistema deve armazenar o telefone do responvel dentro da entidade telefone
+
+RD10º
+
+O sistema deve armazenar as oberservaçoes individual do aluno dentro da entidade oberservaçoes
+
+REGRA DE NEGOCIOS
+RN01º
+a quantidade de total exemplares de exemplares não pode ser menor que 0
+
+RN02º
+o nome não pode ter menos de 2 caracters 
+
+RN03º
+o nome do aluno so pedera ser acessador pelos proficionais da biblioteca
+
+RN04º
+o nome do autor não pode ser menor doque 2
+
+RN05º
+o telefone do responsavel so sera utilizado para contar coisas a respeito da biblioteca seja sobre devolução ou avissos
+
+RN06º
+as observações do aluno não podem ser vistas pelo proprio
+
+PERGUNTA
+pode pegar mais de 1 livro ?
+
+em quais horarios os alunos podem acessar a biblioteca ?
+
+REFLEXÃO
+De forma geral a utilização das planilhas no sistema e ultrapassada, mas com a conversão do banco de dados com base nos dados coletados por nos, será feita de forma muito mais produtividade.
