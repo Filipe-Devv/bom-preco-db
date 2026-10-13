@@ -97,12 +97,15 @@ De forma geral a utilização das planilhas no sistema e ultrapassada, mas com a
 
 
 REFLEXÃO
-01º
-o id
-02º
-alterando os valores dos exemplares disponiveis
-03º
-um limite de emprestimos por usuario
-04º
-a secretaria e os funcionarios da gestão da biblioteca, para a segurança e privacidade do aluno e dos envolvidos
+01ºQual identificador pode ajudar a diferenciar alunos com nomes iguais ou abreviados?
+o id.
+
+02ºComo a biblioteca deve atualizar a quantidade disponível quando um livro é emprestado ou devolvido?
+alterando os valores dos exemplares disponiveis.
+
+03ºQue regra precisa ser definida para impedir empréstimos acima do limite permitido? 
+um limite de emprestimos por usuario.
+
+04ºQuais pessoas precisam consultar os contatos dos responsáveis e por que o acesso deve ser controlado? 
+a secretaria e os funcionarios da gestão da biblioteca, para a segurança e privacidade do aluno e dos envolvidos.
 
