@@ -94,3 +94,15 @@ em quais horarios os alunos podem acessar a biblioteca ?
 
 REFLEXÃO
 De forma geral a utilização das planilhas no sistema e ultrapassada, mas com a conversão do banco de dados com base nos dados coletados por nos, será feita de forma muito mais produtividade.
+
+
+REFLEXÃO
+01º
+o id
+02º
+alterando os valores dos exemplares disponiveis
+03º
+um limite de emprestimos por usuario
+04º
+a secretaria e os funcionarios da gestão da biblioteca, para a segurança e privacidade do aluno e dos envolvidos
+
