@@ -95,7 +95,7 @@ RD02
  O sistema deve armazenar o fornecedor, CNPJ, produto, cidade e informações de contato do fornecedor.
 
 RD03
-A cada 30 dias a sistema realiza um backup
+O estoque não pode ser negativo no sistema
 
 RD04
 
