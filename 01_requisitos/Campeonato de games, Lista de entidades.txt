@@ -25,7 +25,7 @@ Jogadores
 
 RN01
 
-O sistema não deve possuir dias negativos
+O sistema não deve permitir datas retroativas ou prazos com dias negativos no agendamento de partidas.
 
 RN02
 
@@ -109,9 +109,12 @@ O sisteme referente ao nomes do usuarios faz em ordem alfabetica.
 
 --PERGUNTAS AO DONO--
 
-1.E possivel ter 2 equipes com o mesmo nome?
+1.Ter restrição de nomes de usario é nome de equipe?
 
-2.Ter restrição de nomes de usario é nome de equipe?
+
+REFLEXÃO
+
+Código e sistemas não são feitos para máquinas entenderem; são feitos para organizar o pensamento humano de forma tão clara que até uma máquina consiga executar.
 
 
 
