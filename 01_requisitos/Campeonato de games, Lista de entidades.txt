@@ -90,6 +90,24 @@ RD06
 
 O sistema deve armazenar os integrantes da entidade equipes.
 
+RD07
+
+O sistema armazena o jogo da equipe.
+
+RD08
+
+O sistema armazena os integrantes de cada jogo.
+
+RD09
+
+O sistema busca o usuario pelo ID.
+
+RD10
+
+O sisteme referente ao nomes do usuarios faz em ordem alfabetica.
+
+
+
 --PERGUNTAS AO DONO--
 
 1.E possivel ter 2 equipes com o mesmo nome?
